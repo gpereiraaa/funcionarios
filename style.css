@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.pessoa{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+}
+
+div{
+    box-shadow: 0 0 8px 1px gray;
+    padding: 20px;
+    border-radius: 20px;
+    place-content: center;
+}
+div img{
+    height: 110px;
+    width: 110px;
+    border-radius: 100px;
+}
+h6{
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    font-size: 14px;
+    font-weight: 500;
+}
